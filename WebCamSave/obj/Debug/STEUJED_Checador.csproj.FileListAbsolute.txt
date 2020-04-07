@@ -1,0 +1,16 @@
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\STEUJED_Checador.exe.config
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\STEUJED_Checador.exe
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\STEUJED_Checador.pdb
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\AForge.dll
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\AForge.Video.dll
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\AForge.xml
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\AForge.Video.xml
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\obj\Debug\WebCamSave.Form1.resources
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\obj\Debug\STEUJED_Checador.Properties.Resources.resources
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\obj\Debug\STEUJED_Checador.csproj.GenerateResource.cache
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\obj\Debug\STEUJED_Checador.csproj.CoreCompileInputs.cache
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\obj\Debug\STEUJED_Checador.csproj.CopyComplete
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\obj\Debug\STEUJED_Checador.exe
+C:\Users\papaj\source\repos\WebCamSave\WebCamSave\obj\Debug\STEUJED_Checador.pdb
