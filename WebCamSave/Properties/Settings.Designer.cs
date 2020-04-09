@@ -22,5 +22,16 @@ namespace STEUJED_Checador.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=65.99.252.110;Initial Catalog=steujedo_sindicato;Persist Security Inf" +
+            "o=True;User ID=steujedo_sindicato;Password=Sindicato#1586")]
+        public string steujedo_sindicatoConnectionString {
+            get {
+                return ((string)(this["steujedo_sindicatoConnectionString"]));
+            }
+        }
     }
 }

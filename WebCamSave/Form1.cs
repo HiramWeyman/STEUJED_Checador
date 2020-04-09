@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Globalization;
-
+using STEUJED_Checador;
 
 namespace WebCamSave
 {
@@ -22,6 +22,7 @@ namespace WebCamSave
         private bool HayDispositivos;
         private FilterInfoCollection MisDispositivios;
         private VideoCaptureDevice MiWebCam;
+        private string connectionString = "data source=65.99.252.110;initial catalog=steujedo_sindicato;persist security info=True;user id=steujedo_sindicato;password=Sindicato#1586;MultipleActiveResultSets=True;";
         public Form1()
         {
             InitializeComponent();
@@ -30,8 +31,12 @@ namespace WebCamSave
         private void Form1_Load(object sender, EventArgs e)
         {
             CargaDispositivos();
-        
-           
+            if (!(System.IO.Directory.Exists(Path)))
+            {
+                System.IO.Directory.CreateDirectory(Path);
+            }
+
+
         }
 
         public void CargaDispositivos()
@@ -121,7 +126,7 @@ namespace WebCamSave
                         string count_users = "SELECT count(*) from Usuarios where matricula=" + textBox1.Text;
                         string get_id_user = "SELECT id from Usuarios where matricula=" + textBox1.Text;
                         string Insert = "INSERT INTO Lista_Asistencia(usuario_id, fecha,ruta_img,entrada) VALUES(@usuario_id, @fecha,@ruta_img,@entrada)";
-                        string connectionString = "data source=65.99.252.110;initial catalog=steujedo_sindicato;persist security info=True;user id=steujedo_sindicato;password=Sindicato#1586;MultipleActiveResultSets=True;";
+                        
                         string entrada = "";
                         string ruta_img = "";
                         Random rdn = new Random();
@@ -168,7 +173,7 @@ namespace WebCamSave
                                                 SqlCommand cmd = new SqlCommand(Insert, connection);
                                                 cmd.Parameters.AddWithValue("@usuario_id", id);
                                                 cmd.Parameters.AddWithValue("@fecha", DateTime.Now);
-                                                cmd.Parameters.AddWithValue("@ruta_img", ruta_img + ".jpg");
+                                                cmd.Parameters.AddWithValue("@ruta_img", "file:"+ruta_img + ".jpg");
                                                 cmd.Parameters.AddWithValue("@entrada", entrada);
 
                                                 //cmd.Parameters.AddWithValue("@entrada", DateTime.Now.AddMinutes(55).ToString("dd'/'MM'/'yyyy HH:mm:ss"));
@@ -239,6 +244,12 @@ namespace WebCamSave
             textBox1.Text = null;
             pictureBox2.Image = null;
             timer1.Enabled = false;
+        }
+
+        private void reporteDeAsistenciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.Show();
         }
     }
 }
