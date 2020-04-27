@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STEUJED_Checador", "WebCamSave\STEUJED_Checador.csproj", "{36E05096-4058-4405-8317-3FE6B18C63CF}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Checador", "Instalador_Checador\Instalador_Checador.vdproj", "{894C93ED-8AF3-419A-ADDF-41A00C8FFE1F}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Checador", "Instalador_Checador\Instalador_Checador.vdproj", "{61F6B53B-73D5-4C84-88D2-89D94F5FC190}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{36E05096-4058-4405-8317-3FE6B18C63CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36E05096-4058-4405-8317-3FE6B18C63CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36E05096-4058-4405-8317-3FE6B18C63CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{894C93ED-8AF3-419A-ADDF-41A00C8FFE1F}.Debug|Any CPU.ActiveCfg = Debug
-		{894C93ED-8AF3-419A-ADDF-41A00C8FFE1F}.Release|Any CPU.ActiveCfg = Release
+		{61F6B53B-73D5-4C84-88D2-89D94F5FC190}.Debug|Any CPU.ActiveCfg = Debug
+		{61F6B53B-73D5-4C84-88D2-89D94F5FC190}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

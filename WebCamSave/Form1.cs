@@ -117,7 +117,7 @@ namespace WebCamSave
         {
             if (MiWebCam != null && MiWebCam.IsRunning)
             {
-                if (textBox1.TextLength.Equals(7))
+                if (textBox1.TextLength.Equals(6))
                 {
                     try
                     {
