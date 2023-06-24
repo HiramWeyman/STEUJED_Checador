@@ -9,7 +9,7 @@ namespace WebCamSave
 {
     class ConexionBD
     {
-        string cadena = "data source=65.99.252.110;initial catalog=steujedo_sindicato;persist security info=True;user id=steujedo_sindicato;password=Sindicato#1586;MultipleActiveResultSets=True;";
+        string cadena = "data source=localhost;initial catalog=steujedo_sindicato;persist security info=True;user id="";password="";MultipleActiveResultSets=True;";
         public SqlConnection conectarBD= new SqlConnection();
 
         public ConexionBD() 
